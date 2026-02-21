@@ -1,1 +1,83 @@
+# ==============================
+# 🔐 Environment Variables
+# ==============================
 .env
+.env.*
+*.env
+
+# ==============================
+# 🐍 Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# ==============================
+# 🧪 Virtual Environment
+# ==============================
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================
+# 🧠 AI / LLM / Agents
+# ==============================
+# LangChain / LangGraph cache
+.langchain/
+.langgraph/
+
+# Agno / Agent memory (if stored locally)
+memory/
+agent_memory/
+
+# Vector Databases
+chroma/
+chromadb/
+faiss_index/
+*.faiss
+*.db
+*.sqlite3
+
+# ==============================
+# 🗂 Logs & Runtime Files
+# ==============================
+logs/
+*.log
+
+# ==============================
+# 🖥 Streamlit
+# ==============================
+.streamlit/
+
+# ==============================
+# 🧰 VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# 📦 Build / Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# 🧾 Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# 🔑 API Keys / Secrets
+# ==============================
+secrets.json
+config.json
+
+# ==============================
+# 🗄 OS Files
+# ==============================
+.DS_Store
+Thumbs.db
